@@ -1,0 +1,27 @@
+{
+  "name": "arginfo",
+  "version": "1.0.0",
+  "description": "Simple function for creating a string representation of an arbitrary javascript data value. Useful for printing bad argument values to console error output",
+  "main": "index.js",
+  "scripts": {
+    "test": "make && mocha --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blake-regalia/node-arginfo.git"
+  },
+  "keywords": [
+    "arg",
+    "args",
+    "argument",
+    "debug",
+    "error"
+  ],
+  "author": "Blake Regalia <blake.regalia@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "mocha": "^2.3.3",
+    "should": "^7.1.0"
+  }
+}
