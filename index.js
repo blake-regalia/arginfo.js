@@ -102,7 +102,7 @@ module.exports = function(z_a) {
 	}	
 
 	//
-	var s_value = util.inspect(z_a, 5);
+	var s_value = util.inspect(z_a, {depth: 5});
 
 	//
 	switch(n_mode) {
