@@ -30,3 +30,29 @@ function test(str) {
 	}
 }
 ```
+
+## Types
+
+Primitive types:
+ * boolean
+ * number
+ * string
+ * object
+ * function
+ * symbol
+
+Built-in objects:
+ * Boolean
+ * Number
+ * String
+ * Array
+ * Error
+ * RegExp
+ * Date
+ * Map
+ * Set
+ * WeakMap
+ * WeakSet
+ * Promise
+ * DataView
+ * ArrayBuffer
