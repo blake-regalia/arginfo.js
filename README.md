@@ -54,5 +54,6 @@ Built-in objects:
  * WeakMap
  * WeakSet
  * Promise
+ * Generator
  * DataView
  * ArrayBuffer
