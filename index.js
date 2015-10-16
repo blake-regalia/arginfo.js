@@ -12,7 +12,7 @@ module.exports = function(z_a) {
 	var s_type = typeof z_a;
 
 	// object may be a built-in object
-	if('object' === s_type) {
+	if('object' === s_type && null !== z_a) {
 
 		// array
 		if(Array.isArray(z_a)) {

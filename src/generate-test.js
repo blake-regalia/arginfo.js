@@ -51,4 +51,8 @@ let should = require('should');
 // tests
 describe('arginfo', () => {
 	${a_lines.join('\n')}
+
+	it('identifies null', () => {
+		arginfo(null).should.equal('[object: null]');
+	});
 });`);

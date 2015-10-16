@@ -72,4 +72,8 @@ describe('arginfo', () => {
 	it('identifies DataView instances', () => {
 		arginfo(new DataView(new ArrayBuffer())).should.equal("[DataView: {}]");
 	});
+
+	it('identifies null', () => {
+		arginfo(null).should.equal('[object: null]');
+	});
 });
