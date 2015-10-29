@@ -76,4 +76,9 @@ describe('arginfo', () => {
 	it('identifies null', () => {
 		arginfo(null).should.equal('[object: null]');
 	});
+
+	it('allows setting depth', () => {
+		arginfo.depth(1);
+		arginfo({a:{b:{c:'d'}}}).should.equal('[object: { a: { b: [Object] } }]');
+	});
 });

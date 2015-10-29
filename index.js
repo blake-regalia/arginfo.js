@@ -2,6 +2,9 @@
 // native import
 var util = require('util');
 
+// default depth
+var n_depth = null;
+
 //
 module.exports = function(z_a) {
 
@@ -102,7 +105,7 @@ module.exports = function(z_a) {
 	}	
 
 	//
-	var s_value = util.inspect(z_a, {depth: 5});
+	var s_value = util.inspect(z_a, {depth: n_depth});
 
 	//
 	switch(n_mode) {
@@ -119,5 +122,11 @@ module.exports = function(z_a) {
 		case 2:
 			return '['+s_type+': '+s_value.substr(s_type.length+1)+']';
 	}
+};
+
+//
+module.exports.depth = function(n_set) {
+	if('number' !== typeof n_set) n_depth = null;
+	else n_depth = n_set;
 };
 
