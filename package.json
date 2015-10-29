@@ -1,6 +1,6 @@
 {
   "name": "arginfo",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple function for creating a string representation of an arbitrary javascript data value. Useful for printing bad argument values to console error output",
   "main": "index.js",
   "scripts": {
