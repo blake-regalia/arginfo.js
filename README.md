@@ -32,7 +32,7 @@ function test(str) {
 ```
 
 ## Settings
-By default, arginfo will call `util.inspect` with a `depth` of `null`. To limit the recursive depth of printing object properties, use `arginfo.depth`. eg:
+By default, arginfo will call `util.inspect` with a `depth` of `null`. To limit the inspection depth of printing object properties, use `arginfo.depth`. eg:
 ```javascript
 var arginfo = require('arginfo');
 arginfo.depth(1);
