@@ -41,7 +41,8 @@ arginfo({
 		b: {
 			c:'d'
 		}
-	});  // [object: { a: { b: [Object] } }]
+	}
+});  // [object: { a: { b: [Object] } }]
 ```
 
 ## Types
