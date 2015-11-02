@@ -6,10 +6,7 @@
   "scripts": {
     "test": "make && mocha --compilers js:babel/register"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/blake-regalia/node-arginfo.git"
-  },
+  "repository": "blake-regalia/arginfo.js",
   "keywords": [
     "arg",
     "args",
